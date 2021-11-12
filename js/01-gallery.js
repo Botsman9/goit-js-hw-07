@@ -35,10 +35,19 @@ event.preventDefault();
 `);
 
     instance.show();
+    addgallery.addEventListener("keydown", event => {
+        if (event.key === escape) {
+       instance.close();
+   
+    }
+
+        instance.close();
+  
+  
+});
     
-   });
-
-
+ 
+});
 
 
 
